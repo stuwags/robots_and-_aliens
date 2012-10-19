@@ -1,0 +1,17 @@
+<h1> Aliens </h1>
+<% @aliens.each do |alien| %>
+  <%= alien.name %>
+  <%= image_tag(alien.photo) %>
+  <br>
+<% end %>
+
+<h1> Robots </h1>
+<% @robots.each do |robot| %>
+  <%= robot.name %>
+  <%= image_tag(robot.photo) %>
+  <br>
+<% end %>
+
+<br>
+
+

@@ -1,0 +1,9 @@
+<%= form_tag "/wtf" do %>
+  <%= number_field_tag 'number' %>
+  <%= label_tag "Alien" %>
+  <%= radio_button_tag :make, "alien" %>
+  <%= label_tag "Robot" %>
+  <%= radio_button_tag :make, "robot" %>
+  <%= submit_tag 'Make Rob, Alien, and number' %>
+<% end %>
+
